@@ -122,6 +122,8 @@ body{
 
 @media (max-width: 800px){
     .main-container .card{
+        display: flex;
+        flex-direction: column;
         width: 350px;
         height: 650px;
     }
